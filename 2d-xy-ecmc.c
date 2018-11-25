@@ -130,7 +130,7 @@ void init(double *h){
 
     for(i = 0; i < L; i++){
         for(j = 0; j < L; j++){
-            h[i + L * j] = 2 * pi * mersenne();
+            h[i + L * j] = 1; // 2 * pi * mersenne();
         }
     }
 }
