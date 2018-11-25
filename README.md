@@ -14,3 +14,12 @@
     7. Mersenne Twister libraries, http://www.helsinki.fi/~rummukai/lectures/montecarlo_oulu/prog/index.html
 
 */
+Compile: gcc -o 2d-xy-ecmc 2d-xy-ecmc.c mersenne_inline.c -lm 
+
+Execute: 1d-harmonic-ecmc L Tmin Tmax MP s
+
+where   L the lattice size,
+        Tmin the minimum temperature,
+        Tmax the maximum temperature,
+        MP a multiple of pi, e.g. take a measurement after every MP*pi interval
+        s a multiple of the number of samples, the real number of samples is S = s*sS, where sS = 10000
