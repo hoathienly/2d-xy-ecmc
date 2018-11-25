@@ -2,8 +2,8 @@
 /*  Success on Thursday, November 15th, 2018, Vietnam time
     Posted on Sunday, November 18th, 2018
     Revised in the week after that.
-    Full version on Sunday, November 25th, 2018
-    
+    Full version posted on Sunday, November 25th, 2018
+
     This implements the event chain Monte Carlo for the classical 2D XY model.
 
     Ref.:
