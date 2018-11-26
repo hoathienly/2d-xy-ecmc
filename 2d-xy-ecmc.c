@@ -228,7 +228,7 @@ double pair_event(int i, int j){
 
     if(du > J){
         du -= (2 * J);
-        temp = pi;
+        temp = 2 * pi; // 2*pi from the common reference of the event and the initial phi
     }
 
     dp = h[i] - h[j];
