@@ -20,10 +20,11 @@
 # Compile: 
 gcc -o 2d-xy-ecmc 2d-xy-ecmc.c mersenne_inline.c -lm 
 
-#Execute: 
+# Execute: 
 1d-harmonic-ecmc L Tmin Tmax MP s
 
-where   L the lattice size,
+where  
+        L the lattice size,
 
         Tmin the minimum temperature,
         
@@ -32,3 +33,6 @@ where   L the lattice size,
         MP a multiple of pi, e.g. take a measurement after every MP*pi interval,
         
         s a multiple of the number of samples, the real number of samples is S = s*sS, where sS = 10000
+        
+# Monday, Nov. 26, 2018
+I believe the last bug is found today.
